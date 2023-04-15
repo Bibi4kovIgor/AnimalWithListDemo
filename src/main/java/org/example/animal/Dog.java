@@ -27,4 +27,10 @@ public class Dog extends Pet {
                 ", wool='" + wool + '\'' +
                 '}';
     }
+
+    @Override
+    public void print() {
+        System.out.printf("Dog nickname %s, say %s, eats %s\n",
+                           nickName, say(), eat());
+    }
 }

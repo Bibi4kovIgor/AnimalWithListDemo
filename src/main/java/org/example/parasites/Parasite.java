@@ -7,4 +7,6 @@ public interface Parasite extends Cloneable {
 
     int PARASITE_QUANTITY = 2; // static final
 
+
+
 }
